@@ -116,7 +116,11 @@ p 	{
 	background-color: white;
 	padding: 30px;
 	margin: 0;
+}
+
+.stockholm .head .stock {
 	margin-top: 200px;
+
 }
 .gothenburg .head div {display: inline-block;
 	width: 600px;
@@ -204,14 +208,15 @@ width: 100%;
 position: relative;
 display: inline-block;
 margin:0px;
+width: 500px !important;
 }
 
 /* input */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
-  display: inline-block;
+  display: block;
   border: none;
   background: #f1f1f1;
   font-family: 'Arial Rounded MT', sans-serif;
