@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Project One - Subpage One</title>
+	<title>Project One - bas</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<!-- This is a special css library that overrides all the ugle default css styles that come with html5 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="uppsala">
+<body class="stockholm">
 
 	<nav>
 		<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
@@ -34,14 +34,33 @@
 
 			<div class="head">
 				<div>
-					<h2>Uppsala</h2>
+					<h2>Book a Stay</h2>
 
-					<p>The university city of Uppsala lies in the heart of Sweden, 40 minutes from Stockholm and 20 minutes from Arlanda International Airport. Uppsala is Sweden’s fourth largest city. Unique cultural treasures and an exciting history are to be found in the city of knowledge and inspiration. Uppsala has retained its small-town charm while offering a big city’s selection of shops, restaurants, and things to do. The Fyris river (Fyrisån) neatly divides the city into two different parts: the historic quarter to the west of the river and the administrative, residential and commercial area to the east. Most of the features of interest are in the western part, dominated by the cathedral, and with its old streets, river views and parks</p>
-					<ul>
-						<li><a href="bas.html">BOOK A STAY</a></li>
-						<li><a href="comingsoon.html">WHAT TO DO</a></li>
-						<li><a href="comingsoon2.html">IMAGES</a></li>
-					</ul>
+					
+<form action="action_page.php">
+  <div class="container2">
+ 
+    <b>Create an account to book your stay in Sweden.</b>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
 				</div>
 			</div>
 
